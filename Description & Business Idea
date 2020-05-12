@@ -1,0 +1,21 @@
+Opening a new hotel, opening a new hotel in Hamburg, Germany.
+
+
+Hamburg has everything, three rivers (Elbe, Alster and Bille) + two seas (North and Baltic). It has culture as a Free City and being the gateway
+to the New World. Worldly cosmopolitan and diverse city, Hamburg is one of Germany's finest tourist destinations.
+
+
+
+In this anylsis, I will get into detail where to open a new hotel. There are different aspects to consider:
+
+  1.  Which districts are the most popular ones? The more people are visiting a district, the more popular it is and the more
+      revenue we can expect.
+  2.  But the more popular a district is, we can expect more competition. So, we have to consider the amount of existing hotels
+      in all of the analyzed districts.
+  3.  These analysis is only one step in a long journey to find the perfect place for a hotel. Therefore, I cut the district
+      amount to just 15.
+  4.  Using a Clustering method (k-Clustering) we build clusters. Using those clusters we decide in which we will open the
+      hotel.
+      
+For the whole analyis, please see Coursera.ipynb notebook.
+
