@@ -1,0 +1,20 @@
+Business Plan: opening a hotel in Hamburg, Germany
+
+First:
+We are using a .csv file containing all districts of Hamburg. We download it from the following source: 
+http://suche.transparenz.hamburg.de/dataset/stadtteil-profile.
+
+
+Second:
+We are cleaning the data, constructing a data frame. Using the district names, 
+we use the package geopy.geocoders to get the longitude and latitude values for each district. 
+In order to keep the analysis short, we are just using the first 15 districts from our created data frame.
+
+Third:
+Using the created data frame, we use the Foursquare API (https://developer.foursquare.com/docs/data)
+in order to get data for the top venues in the different districts.
+Using the top venues we can analyze which district are the most popular and which districts have the most competition and
+ultimately we can say in which district we have the best chances for opening our new hotel.
+
+
+
